@@ -10,7 +10,7 @@ This project goes beyond traditional dashboards by combining:
 ---
 
 ## 🌐 Live Demo
-👉 *(Add your Streamlit link here after deployment)*
+👉 *(https://ai-market-intelligence-engine-kizeofskyus32x92mucvlp.streamlit.app/)*
 
 ---
 

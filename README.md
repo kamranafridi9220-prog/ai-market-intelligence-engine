@@ -13,7 +13,23 @@ This project goes beyond traditional dashboards by combining:
 👉 *(https://ai-market-intelligence-engine-kizeofskyus32x92mucvlp.streamlit.app/)*
 
 ---
+# System Architecture
 
+![Architecture](ai-market-intelligence-engine-architecture.png)
+---
+# Business Impact
+
+This project demonstrates how AI-powered market intelligence systems can support:
+
+- Customer behaviour analysis
+- Market trend identification
+- Strategic business insights
+- AI-assisted analytics
+- Commercial intelligence workflows
+- Decision-support systems
+
+The platform combines analytics pipelines, AI-generated insights, and interactive dashboards to simulate modern AI-driven market intelligence environments.
+---
 ## 🎯 Project Overview
 
 The **AI Market Intelligence Engine** is built to simulate how modern organisations use AI to:

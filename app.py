@@ -261,6 +261,58 @@ if uploaded_file is not None:
     st.markdown("---")
 
     # ----------------------------
+    # Strategic Decision Recommendations
+    # ----------------------------
+    st.markdown("## 🧭 Strategic Decision Recommendations")
+
+    if meaningful_categorical_columns:
+
+        recommendation_col = st.selectbox(
+            "Select segment for strategic analysis",
+            meaningful_categorical_columns,
+            key="recommendation_col"
+        )
+
+        top_segment = df[recommendation_col].value_counts().idxmax()
+        top_count = df[recommendation_col].value_counts().max()
+
+        st.success(
+            f"Top Segment Identified: {top_segment} ({top_count} records)"
+        )
+
+        st.markdown("### Executive Insights")
+
+        st.write(
+            f"The segment **{top_segment}** currently represents the strongest group in the selected category and may offer the highest opportunity for growth, customer engagement, and strategic focus."
+        )
+
+        st.markdown("### Recommended Business Actions")
+
+        st.write(
+            "- Focus marketing resources on the highest-performing segment."
+        )
+
+        st.write(
+            "- Analyse customer behaviour within this segment."
+        )
+
+        st.write(
+            "- Develop retention and upsell strategies."
+        )
+
+        st.write(
+            "- Compare this segment against revenue and profitability metrics."
+        )
+
+        st.markdown("### Risk Assessment")
+
+        st.warning(
+            "Heavy dependence on one segment may create concentration risk. Diversification should also be considered."
+        )
+
+    st.markdown("---")
+    
+    # ----------------------------
     # Dataset Summary
     # ----------------------------
     with st.expander("Dataset Summary", expanded=False):

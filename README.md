@@ -65,6 +65,26 @@ Unlike traditional BI dashboards, this system introduces a **multi-agent intelli
 - Supports decision-making for targeting and optimisation
 
 ---
+🧭 Strategic Decision Recommendations
+
+Provides executive-level strategic guidance by analysing dominant customer and market segments.
+
+Key capabilities include:
+
+Identification of high-value customer or market segments
+Executive-level opportunity analysis
+Revenue concentration risk assessment
+Strategic business recommendations
+Data-driven decision support
+Revenue optimisation insights
+
+This feature extends traditional business intelligence by transforming analytical findings into actionable business guidance for managers and decision-makers.
+
+---
+🧭 Strategic Decision Recommendations
+The system automatically identifies dominant customer or market segments and generates executive-level recommendations, growth opportunities, risk assessments, and business actions.
+
+---
 
 ### 🤖 Multi-Agent AI Intelligence
 
@@ -206,11 +226,18 @@ Transforms insights into **clear business decisions**:
 
 ## 🔮 Future Improvements
 
-- Automated insight detection (no manual question needed)
-- Integration with live data sources
-- User authentication & dashboards per business
-- Advanced forecasting models
-- UI/UX upgrade to SaaS-level interface
+## 🔮 Future Improvements
+
+* Executive AI Summary with confidence scoring
+* Automated insight detection (no manual question needed)
+* Multi-agent collaboration workflows
+* Integration with live data sources
+* User authentication and role-based dashboards
+* Advanced forecasting and predictive analytics
+* AI-powered alerting and anomaly detection
+* SaaS-level UI/UX enhancements
+* Revenue optimisation recommendation engine
+* Real-time market intelligence monitoring
 
 ---
 
